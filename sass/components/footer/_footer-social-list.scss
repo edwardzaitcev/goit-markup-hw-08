@@ -1,0 +1,50 @@
+.wpapper-list-icon {
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-direction: column;
+  }
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--white-color-text);
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.social-list {
+  @extend %list;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.footer-social__link {
+  @extend %link;
+  @include center-flex;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  fill: var(--white-color-text);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.social-list__link--indent-color {
+  background-color: #44454e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

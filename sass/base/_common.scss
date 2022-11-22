@@ -1,17 +1,24 @@
-.site-body {
-    font-family: "Roboto", sans-serif;
-    background: #ffffff;
-  }
-  .list {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-  }
-  .link {
-    text-decoration: none;
-  }
-  .link:hover {
-    color: #2196f3;
-  }
-  .link:focus {
-    color: #2196f3;}
+html {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+/* Видаляємо марджини із заголовків */
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
