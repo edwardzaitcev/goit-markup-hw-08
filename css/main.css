@@ -515,6 +515,12 @@ body {
     display: none;
   }
 }
+@media screen and (min-width: 1200px) {
+  .menu-list {
+    margin-left: 93px;
+  }
+}
+
 .menu-list__link {
   display: block;
   padding-top: 32px;
