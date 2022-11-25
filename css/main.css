@@ -499,6 +499,9 @@ body {
     border: none;
     background-color: transparent;
     cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
   }
 }
 
@@ -901,6 +904,8 @@ body {
   background-color: transparent;
   cursor: pointer;
   position: absolute;
+  top: 21px;
+  right: 25px;
 }
 
 .mobile-menu__btn:hover .mobile-menu__icon-cross,
