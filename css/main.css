@@ -900,6 +900,7 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  position: absolute;
 }
 
 .mobile-menu__btn:hover .mobile-menu__icon-cross,
@@ -908,6 +909,13 @@ body {
 }
 
 .mobil-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -970,7 +978,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .mobile-contact {
-    margin-top: 48.48vh;
+    margin-top: auto;
   }
 }
 
