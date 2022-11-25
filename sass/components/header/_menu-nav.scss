@@ -31,6 +31,8 @@
 .current-link {
   position: relative;
   color: var(--accent-color);
+  margin-left: 93px;
+  
 
   &::after {
     content: '';
