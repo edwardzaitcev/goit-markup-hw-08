@@ -5,7 +5,18 @@
 }
 
 .clients__item {
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 30px) / 2);
+
+  @media screen and (min-width: 480px) {
+    width: 100%;
+   flex-basis: calc((100% - 60px) / 3);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+    flex-basis: calc((100% - 150px) / 6);
+  }
+
 }
 
 .clients__link {
@@ -18,11 +29,12 @@
 
   @media screen and (min-width: 480px) {
     width: 100%;
+   
   }
 
   @media screen and (min-width: 1200px) {
     width: 170px;
-   
+  
   }
 
   &:hover,
