@@ -9,7 +9,9 @@
 .mobile-social__link {
   @extend %link;
 }
-
+.header-button{
+margin-left:auto;
+}
 .mobile-menu__btn {
   display: flex;
   align-items: center;
