@@ -9,9 +9,7 @@
 .mobile-social__link {
   @extend %link;
 }
-.header-button{
-margin-left:auto;
-}
+
 .mobile-menu__btn {
   display: flex;
   align-items: center;
@@ -21,9 +19,9 @@ margin-left:auto;
   border: none;
   background-color: transparent;
   cursor: pointer;
- position: absolute;
- top: 21px;
- right: 25px;
+  position: absolute;
+  top: 21px;
+  right: 25px;
 }
 
 .mobile-menu__btn:hover .mobile-menu__icon-cross,

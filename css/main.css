@@ -711,6 +711,10 @@ body {
   position: relative;
 }
 
+.header-button {
+  margin-left: auto;
+}
+
 .header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1126,10 +1130,6 @@ body {
   background-color: #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.header-button {
-  margin-left: auto;
 }
 
 .mobile-menu__btn {
